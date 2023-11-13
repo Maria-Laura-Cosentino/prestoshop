@@ -1,0 +1,161 @@
+/* Google Font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+  *{
+    font-family: 'Prompt', sans-serif;
+  }
+
+  :root{
+
+    --mainColor:#4991ae;
+  }
+
+  .scroll-top{
+
+    color: #ed3a69;
+    
+  }
+
+  .btn-scroll{
+
+    z-index: 1;
+  }
+
+  .navbar, .bg-footer{
+
+    background:linear-gradient(rgb(7, 72, 94), rgba(7, 72, 94));
+  }
+  .navbar-brand{
+
+    font-size: 2rem;
+  }
+
+  .navbar-nav{
+
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .navbar-toggler{
+
+    border-color: #fff;
+  }
+
+  .bg-image{
+
+    height: 500px;
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('./media/hp-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title-2{
+
+    width:30%
+  }
+
+  .card-icon i{
+
+    background-color: var(--mainColor);
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-category{
+    background-color: var(--mainColor);
+  }
+
+  .btn-category:hover, .btn-product:hover{
+
+    background-color: #000 !important;
+  }
+
+  .card-img-home{
+
+    height: 400px;
+  }
+
+  .bg-card{
+    background-color:var(--mainColor);
+  }
+
+
+  .usecode{
+
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #ed3a69;
+    
+  }
+
+  .p-newsletter, .p-footer{
+    font-size: 14px;
+  }
+
+  .btn-newsletter, .btn-product{
+    background-color:var(--mainColor);
+    color: white;
+  }
+
+  .btn-newsletter:hover, .btn-product:hover{
+
+    background-color: #000 !important;
+    color: #fff;
+  }
+
+  .p-privacy{
+    font-size: 12px;
+  }
+
+  .p-privacy a, .btn-slide a{
+
+    color: var(--mainColor);
+  }
+
+  .card-img-top{
+
+    height: 270px;
+  }
+
+  .discount-price{
+
+    height: 40px;
+  }
+
+  .product-title{
+    font-size: 1.2rem;
+    height: 50px;
+  }
+
+  .cartTab {
+    width: 40vw;
+    height: 100vh;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0px;
+    right: -40vw;
+    z-index: 9999;
+    transition: 0.4s;
+  }
+
+@media screen and (min-width:520px) and (max-width:820px){
+
+    .title-2{
+
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:499px){
+
+    .title-2{
+
+        width: 80%;
+    }
+}
